@@ -121,3 +121,32 @@ console.log(age1,age2,age3)
 // method2
 const ages = [calcAge(years[0]), calcAge(years[1]), calcAge(years[years.length-1])];
 console.log(ages)
+
+const friend = ['michael', 'josh', 'hinata']
+
+const newlength = friend.push('julia');
+console.log(friend);
+console.log(newlength)
+
+friend.unshift('Blessed');
+console.log(friend)
+
+friend.pop();
+const popped = friend.pop();
+console.log(popped);
+console.log(friend);
+
+friend.shift()
+console.log(friend)
+
+console.log(friend.indexOf('josh'));
+console.log(friend.indexOf('hinata'));
+
+friends.push(23);
+console.log(friend.includes(23))
+console.log(friend.includes('josh'))
+console.log(friend.includes('bob'))
+
+if(friend.includes('josh')){
+    console.log('You have a friend called josh')
+}
